@@ -1,0 +1,33 @@
+list.remove(value)
+Remove() removes the first matching value/object. It does not do anything with the indexing.
+>>> x=[1,2,3,2,4,5,6,8,7,3]
+>>> x
+[1, 2, 3, 2, 4, 5, 6, 8, 7, 3]
+>>> x.remove(2)
+>>> x
+[1, 3, 2, 4, 5, 6, 8, 7, 3]
+If you want to remove all the occurrences of an element in the list, you need to loop over all elements. Check the element and remove if it is present.
+del list[index]
+del removes the item at a specific index.
+>>> x=[1,3,4,3,6,4,7]
+>>> x
+[1, 3, 4, 3, 6, 4, 7]
+>>> del x[1]
+>>> x
+[1, 4, 3, 6, 4, 7]
+list.pop(index)
+And pop removes the item at a specific index and returns it.
+>>> x=[1,2,3,4,1,2,3,4]
+>>> x
+[1, 2, 3, 4, 1, 2, 3, 4]
+>>> x.pop(3)
+4
+>>>
+
+KEY DIFFERENCES
+1) remove() delete the matching element/object whereas del and pop removes the element at a specific index.
+2) del and pop deals with the index. The only difference between two is that- pop return deleted value from the list and del does not return anything.
+3) Pop is only way that returns the object.
+4) Remove is the only one that searches object (not index).
+
+
