@@ -1,0 +1,11 @@
+Dictionary 
+
+The Python dictionary makes it easier to read and change data, thereby rendering it more actionable for predictive modeling. A Python dictionary is an unordered collection of data values. Unlike other data types that hold only one value as an element, a Python dictionary holds a key: value pair.
+
+How to Order by in Dictionary-
+To sort a dictionary by value in Python you can use the sorted() function. Python's sorted() function can be used to sort dictionaries by key, which allows for a custom sorting method.
+
+A dictionary maps a set of objects (keys) to another set of objects (values) so you can create an unordered list of objects.
+Dictionaries are mutable, which means they can be changed.
+Dictionaries are mutable, which means they can be changed.
+Dictionaries are unordered, so the order that the keys are added doesn’t necessarily reflect what order they may be reported back. Because of this, you can refer to a value by its key name
